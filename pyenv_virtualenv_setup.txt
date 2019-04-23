@@ -1,0 +1,12 @@
+# Install new python version
+$ pyenv install <python_version>
+
+# Make a new virtual environment
+$ pyenv virtualenv <python_version> <venv_name>
+
+# From the repo root
+[repo_root]$ echo "<venv_name>" > .python-version
+
+# Add these to bashrc to automatically activate a virtualenv
+eval "$(pyenv virtualenv-init -)"
+eval "$(pyenv init -)"
