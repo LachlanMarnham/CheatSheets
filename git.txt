@@ -1,3 +1,7 @@
+## Add old code to a new remote which was just created
+git remote add origin <remote_address>
+git push -u origin master
+
 ## push to remote branch and set it as upstream...
 git push -u origin <local_branch_name>:<remote_branch_name>
 
