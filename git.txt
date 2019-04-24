@@ -7,3 +7,9 @@ git push -u origin <local_branch_name>:<remote_branch_name>
 
 ## ...or if the branches have the same name
 git push -u origin <branch_name>
+
+## unstage files which have been added but not committed
+git reset
+
+## delete a remote branch
+git push --delete origin <remote_branch_name>
