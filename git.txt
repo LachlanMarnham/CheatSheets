@@ -13,3 +13,6 @@ git reset
 
 ## delete a remote branch
 git push --delete origin <remote_branch_name>
+
+## remove upstream
+git branch --unset-upstream
