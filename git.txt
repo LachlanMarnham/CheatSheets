@@ -16,3 +16,6 @@ git push --delete origin <remote_branch_name>
 
 ## remove upstream
 git branch --unset-upstream
+
+## delete tag
+git tag -d <tag>
