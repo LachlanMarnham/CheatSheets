@@ -19,3 +19,12 @@ git branch --unset-upstream
 
 ## delete tag
 git tag -d <tag>
+
+## list tags
+git tag -l
+
+## create new tag
+git tag <new_tag>
+
+## push tags to remote
+git push --tags
