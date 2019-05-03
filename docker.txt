@@ -1,14 +1,14 @@
-# list running containers
+## list running containers
 docker ps
 
-# build a specific dockerfile
+## build a specific dockerfile
 docker build --file=docker/<file_name> --tag=<tag> <context_path>
 
-# build with a build arg, passed to: ARG BUILD_ARG
+## build with a build arg, passed to: ARG BUILD_ARG
 docker build --build-arg BUILD_ARG=<value>
 
-# run a container and open a shell
+## run a container and open a shell
 docker exec -it $(docker run -d <tag>) /bin/bash
 
-# kill all running containers
+## kill all running containers
 docker kill $(docker ps -q)
