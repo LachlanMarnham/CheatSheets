@@ -1,0 +1,3 @@
+## when airflow gets in a bad state and has not run a DAG in some time open up a shell into the airflow scheduler
+## container and run
+airflow backfill -s <start_date> -e <end_date> <dag_id>
